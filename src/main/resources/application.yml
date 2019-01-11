@@ -1,0 +1,14 @@
+# Server configuration
+server:
+  context-path: /micro
+  port: 8080
+
+# Spring properties
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://caplonsgprd-3.securegateway.appdomain.cloud:15761/inventorydb
+    username: dbuser
+    password: Pass4dbUs3R
+  jpa:
+    database: MYSQL
